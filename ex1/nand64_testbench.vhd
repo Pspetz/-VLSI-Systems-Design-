@@ -1,3 +1,26 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+
+entity NAND64 is
+end NAND64;
+
+-- CARRY EKSOUDOU = ((A XOR B) AND Cin) or (A AND B)
+-- SUM EKSODOU = (A XOR B) XOR C 
+architecture Behavioral of NAND64 is
+
+COMPONENT NAND64
+ PORT(
+ A : IN BIT_VECTOR;
+ B : IN BIT_VECTOR;
+ C : OUT BIT_VECTOR
+ 
+ );
+ END COMPONENT;
+signal A : BIT_VECTOR := '0';
+signal B : BIT_VECTOR := '0';
+signal C : BIT_VECTOR := '0';
+
  
 BEGIN
 
