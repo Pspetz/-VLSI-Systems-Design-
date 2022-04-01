@@ -74,5 +74,4 @@ stim_proc: process
  
  end process;
 
-
 end Behavioral;
