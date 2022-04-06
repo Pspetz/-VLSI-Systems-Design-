@@ -8,7 +8,7 @@ ENTITY xor_with_and IS
 	      out_and : OUT STD_LOGIC_VECTOR(7 DOWNTO 0);
 	      out_xor : OUT STD_LOGIC_VECTOR(7 DOWNTO 0));
 		  
-END and_xor;
+END xor_with_and;
 ----------------------------------------------------
 ARCHITECTURE schematic OF xor_with_and IS
 
@@ -17,4 +17,4 @@ BEGIN
 	out_xor <= inputA XOR inputB;
 	
 END schematic ;
---------------------------------------------------
+----------------------------------------------------
