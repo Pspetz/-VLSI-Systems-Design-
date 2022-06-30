@@ -1,4 +1,4 @@
-#EX1
+#EX1																																																																																
 64bit-NAND Gate
 1 bit Full Adder
 And Xor Logic unit
